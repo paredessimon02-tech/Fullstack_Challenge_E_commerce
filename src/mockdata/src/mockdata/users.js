@@ -1,0 +1,5 @@
+const users = [
+    { id: 1, name: "Admin", email: "admin@test.com", password: "1234" }
+  ]
+  
+  export default users
