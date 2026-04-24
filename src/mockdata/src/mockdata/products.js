@@ -1,0 +1,24 @@
+const products = [
+    { id: 1, title: "Jersey Real Madrid", price: 189900, category: "Delantero", description: "#9 - Kylian Mbappé - Francia", image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg", rating: { rate: 4.9, count: 320 } },
+    { id: 2, title: "Jersey Barcelona", price: 175900, category: "Delantero", description: "#10 - Lamine Yamal - España", image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg", rating: { rate: 4.8, count: 280 } },
+    { id: 3, title: "Jersey Manchester City", price: 182900, category: "Delantero", description: "#9 - Erling Haaland - Noruega", image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg", rating: { rate: 4.9, count: 310 } },
+    { id: 4, title: "Jersey PSG", price: 178900, category: "Mediocampista", description: "#8 - Fabian Ruiz - España", image: "https://fakestoreapi.com/img/71HblAHs1xL._AC_UY879_-2.jpg", rating: { rate: 4.5, count: 190 } },
+    { id: 5, title: "Jersey Bayern Munich", price: 185900, category: "Mediocampista", description: "#6 - Joshua Kimmich - Alemania", image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg", rating: { rate: 4.7, count: 240 } },
+    { id: 6, title: "Jersey Liverpool", price: 179900, category: "Mediocampista", description: "#8 - Dominik Szoboszlai - Hungría", image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg", rating: { rate: 4.6, count: 210 } },
+    { id: 7, title: "Jersey Arsenal", price: 176900, category: "Defensa", description: "#2 - Ben White - Inglaterra", image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg", rating: { rate: 4.5, count: 175 } },
+    { id: 8, title: "Jersey Juventus", price: 174900, category: "Defensa", description: "#3 - Federico Gatti - Italia", image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg", rating: { rate: 4.4, count: 160 } },
+    { id: 9, title: "Jersey Atlético Madrid", price: 177900, category: "Defensa", description: "#4 - Robin Le Normand - Francia", image: "https://fakestoreapi.com/img/71HblAHs1xL._AC_UY879_-2.jpg", rating: { rate: 4.6, count: 195 } },
+    { id: 10, title: "Jersey Chelsea", price: 181900, category: "Defensa", description: "#6 - Levi Colwill - Inglaterra", image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg", rating: { rate: 4.3, count: 150 } },
+    { id: 11, title: "Jersey Inter Milan", price: 173900, category: "Portero", description: "#1 - Yann Sommer - Suiza", image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg", rating: { rate: 4.7, count: 220 } },
+    { id: 12, title: "Jersey Borussia Dortmund", price: 172900, category: "Portero", description: "#1 - Gregor Kobel - Suiza", image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg", rating: { rate: 4.5, count: 180 } },
+    { id: 13, title: "Jersey Manchester United", price: 180900, category: "Portero", description: "#1 - André Onana - Camerún", image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg", rating: { rate: 4.4, count: 165 } },
+    { id: 14, title: "Jersey Napoli", price: 171900, category: "Delantero", description: "#77 - Khvicha Kvaratskhelia - Georgia", image: "https://fakestoreapi.com/img/71HblAHs1xL._AC_UY879_-2.jpg", rating: { rate: 4.8, count: 260 } },
+    { id: 15, title: "Jersey AC Milan", price: 176900, category: "Mediocampista", description: "#10 - Rafael Leão - Portugal", image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg", rating: { rate: 4.7, count: 230 } },
+    { id: 16, title: "Jersey Boca Juniors", price: 159900, category: "Delantero", description: "#10 - Edinson Cavani - Uruguay", image: "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg", rating: { rate: 4.6, count: 200 } },
+    { id: 17, title: "Jersey River Plate", price: 157900, category: "Mediocampista", description: "#8 - Enzo Pérez - Argentina", image: "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg", rating: { rate: 4.5, count: 185 } },
+    { id: 18, title: "Jersey Selección Colombia", price: 165900, category: "Delantero", description: "#11 - Luis Díaz - Colombia", image: "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg", rating: { rate: 5.0, count: 400 } },
+    { id: 19, title: "Jersey Selección Brasil", price: 168900, category: "Defensa", description: "#3 - Marquinhos - Brasil", image: "https://fakestoreapi.com/img/71HblAHs1xL._AC_UY879_-2.jpg", rating: { rate: 4.8, count: 290 } },
+    { id: 20, title: "Jersey Selección Argentina", price: 169900, category: "Delantero", description: "#10 - Lionel Messi - Argentina", image: "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg", rating: { rate: 5.0, count: 500 } },
+  ]
+  
+  export default products
